@@ -1,5 +1,3 @@
-
-
 def display_board(board):
     """
     Function to print out the board
@@ -13,6 +11,24 @@ def display_board(board):
     print("--------")
 
 
-board = [" "]*10
+the_board = [" "]*10
 
-display_board(board)
+display_board(the_board)
+
+def player_marker():
+    """
+    Function that can take a player input and assisgn their marker as 
+    "X" or "O"
+    """
+    marker = ""
+
+    while not (marker == "X" or marker == "O"):
+        marker = input("Player 1: Do you want to be X or O? ").upper()
+
+    if marker == "X":
+        return ("X", "O")
+    else:
+        return ("O", "X")
+
+
+player_marker()
