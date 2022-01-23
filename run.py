@@ -54,5 +54,10 @@ def computer_choice(board):
         position = random.randint(1,9)
     return position
 
-print(player_choice(board))
-print(computer_choice(board))
+def check_if_space(board, position):
+    """
+    a function that returns True or False if a space on the board is freely available.
+    """
+    if board[postion] == " ":
+        return True
+
