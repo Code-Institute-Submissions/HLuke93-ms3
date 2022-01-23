@@ -34,4 +34,4 @@ def place_player_marker(board, marker, position):
     function that takes in the board list , a marker ('X' or 'O'), and a desired position (number 1-9) and assigns it to the board.
     """
 
-    board[position] = market
+    board[position] = marker
