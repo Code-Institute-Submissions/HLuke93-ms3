@@ -1,6 +1,6 @@
 import random
 
-board = [" "]*10
+board = [" "]*10 # Remove this (Only for testing)
 
 def display_board(board):
     """
@@ -59,5 +59,15 @@ def check_if_space(board, position):
     a function that returns True or False if a space on the board is freely available.
     """
     if board[postion] == " ":
+        return True
+
+def full_board(board):
+    """
+    function that checks if the board is full 
+    and returns a boolean value.
+    """
+    for space in range(1,10):
+        if check_if_space(board, space):
+            return False
         return True
 
