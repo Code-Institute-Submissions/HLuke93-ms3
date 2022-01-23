@@ -11,8 +11,6 @@ def display_board(board):
     print("--------")
 
 
-the_board = [" "]*10
-
 display_board(the_board)
 
 def player_marker():
@@ -31,4 +29,9 @@ def player_marker():
         return ("O", "X")
 
 
-player_marker()
+def place_player_marker(board, marker, position):
+    """
+    function that takes in the board list , a marker ('X' or 'O'), and a desired position (number 1-9) and assigns it to the board.
+    """
+
+    board[position] = market
