@@ -1,3 +1,7 @@
+import random
+
+board = [" "]*10
+
 def display_board(board):
     """
     Function to print out the board
@@ -11,7 +15,6 @@ def display_board(board):
     print("--------")
 
 
-display_board(the_board)
 
 def player_marker():
     """
@@ -35,3 +38,21 @@ def place_player_marker(board, marker, position):
     """
 
     board[position] = marker
+
+def player_choice(board):
+
+    position = 0
+
+    while position not in [1,2,3,4,5,6,7,8,9]:
+        position = int(input("Choose you position: (1-9): "))
+    return position
+
+def computer_choice(board):
+
+    position = 0
+    while position not in [1,2,3,4,5,6,7,8,9]:
+        position = random.randint(1,9)
+    return position
+
+print(player_choice(board))
+print(computer_choice(board))
