@@ -72,6 +72,11 @@ def full_board(board):
         return True
 
 def check_for_win(board, marker):
+
+    """
+    a function that takes in a board and checks to see if someone has won.
+    """
+
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or # across the top
     (board[4] == mark and board[5] == mark and board[6] == mark) or # across the middle
     (board[1] == mark and board[2] == mark and board[3] == mark) or # across the bottom
