@@ -87,3 +87,48 @@ def check_for_win(board, marker):
     (board[9] == mark and board[5] == mark and board[1] == mark)) # diagonal
 
 
+while True:
+
+    board = [" "]*10
+
+    user_marker, computer_marker = player_marker()
+     
+
+    play_game = input("Are you ready to play? Yes or No. ") 
+
+    if play_game.lower()[0] == "y":
+        game_on = True
+    else:
+        game_on = False
+    
+
+    while game_on:
+        display_board(board)
+        position = player_choice(board)
+        place_player_marker(board, user_marker, position)
+
+        if check_for_win(board, user_marker):
+            display_board(board)
+            print("You Won")
+            game_on = False
+        else:
+            if full_board(board):
+                display_board(board)
+                print("It's a Draw")
+                break
+    
+    else:
+        display_board(board)
+        position = computer_choice(board)
+        place_player_marker(board, computer_marker, position)
+
+        if check_for_win(board, computer_marker):
+            display_board(board)
+            print("You Lost")
+            game_on = False
+        else:
+            if full_board(board):
+                display_board(board)
+                print("It's a Draw")
+                break
+
