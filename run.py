@@ -86,6 +86,18 @@ def check_for_win(board, mark):
     (board[9] == mark and board[5] == mark and board[1] == mark)) # diagonal
 
 
+
+def choose_first():
+     """
+    a function that uses the random module to randomly decide which player goes first.
+    """
+
+    if random.randint(0,1) == 0:
+        return "Computer"
+    else:
+        return "Player 1"
+
+
 while True:
 
     board = [" "]*10
