@@ -1,14 +1,20 @@
 import random
 
-import time
+import os
+
+def clear():
+    """
+    Clear the console/screen
+    https://stackoverflow.com/questions/2084508/clear-terminal-in-python
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def display_board(board):
     """
     Function to print out the board
     """
-    import os
-    os.system('cls' if os.name == 'nt' else 'clear')
+    clear()
     print("REFERENCE BOARD")
 
     print("--------")
