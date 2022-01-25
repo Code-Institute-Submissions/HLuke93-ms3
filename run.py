@@ -38,18 +38,29 @@ def place_player_marker(board, marker, position):
 
     board[position] = marker
 
+
+
 def player_choice(board):
+
+    """
+    a function that asks for a player's next position (as a number 1-9) and then uses the check space function to check if its a free position. If it is, then return the position for later use. 
+    """
 
     position = 0
 
-    while position not in [1,2,3,4,5,6,7,8,9]:
+    while position not in [1,2,3,4,5,6,7,8,9] or not check_if_space(board, position):
         position = int(input("Choose you position: (1-9): "))
+
     return position
 
 def computer_choice(board):
 
+    """
+    a function that generates a random number for the computer between 1-9 and then  uses the check space function to check if its a free position. If it is, then return the position for later use. 
+    """
+
     position = 0
-    while position not in [1,2,3,4,5,6,7,8,9]:
+    while position not in [1,2,3,4,5,6,7,8,9] or not check_if_space(board, position):
         position = random.randint(1,9)
     return position
 
@@ -68,8 +79,7 @@ def full_board(board):
     for i in range(1,10):
         if check_if_space(board, i):
             return False
-        else:
-            return True
+        return True
 
 def check_for_win(board, mark):
 
@@ -152,4 +162,7 @@ while True:
                     break
                 else:
                     turn = "Player 1"
+
+
+# Seems to be an draw issue when user selects position 1
 
