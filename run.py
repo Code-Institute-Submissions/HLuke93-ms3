@@ -9,8 +9,17 @@ def display_board(board):
     """
     import os
     os.system('cls' if os.name == 'nt' else 'clear')
+    print("REFERENCE BOARD")
 
-
+    print("--------")
+    print("7" + " |" + "8" + " |" + "9")
+    print("--------")
+    print("4" + " |" + "5" + " |" + "6")
+    print("--------")
+    print("1" + " |" + "2" + " |" + "3")
+    print("--------")
+    print(" ")
+    print("GAME BOARD")
     print("--------")
     print(board[7] + " |" + board[8] + " |" + board[9])
     print("--------")
