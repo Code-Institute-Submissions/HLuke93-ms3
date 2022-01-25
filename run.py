@@ -115,6 +115,10 @@ def choose_first():
         return "Player 1"
 
 
+def play_again():
+    return input("Do you want to play again? Yes or No: ").lower()
+
+
 while True:
 
     board = [" "]*10
