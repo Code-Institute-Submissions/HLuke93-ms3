@@ -116,7 +116,11 @@ def choose_first():
 
 
 def play_again():
-    return input("Do you want to play again? Yes or No: ").lower()
+
+    """
+    Function to Play again or not.
+    """
+    return input("Do you want to play again? Yes or No: ").lower().startswith('y')
 
 
 while True:
@@ -156,6 +160,7 @@ while True:
                     turn = "Computer"
         
         else:
+
             display_board(board)
             position = computer_choice(board)
             place_player_marker(board, computer_marker, position)
@@ -173,5 +178,6 @@ while True:
                     turn = "Player 1"
 
 
-# Seems to be an draw issue when user selects position 1
+    if not play_again():
+        break
 
