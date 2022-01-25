@@ -127,12 +127,13 @@ while True:
 
     board = [" "]*10
 
-    user_marker, computer_marker = player_marker() # Assign X and O to user and player
+    name = input("Please Enter you Name: ")
+    user_marker, computer_marker = player_marker() # Assign X and O to user and Computer
     turn = choose_first()
     print(f'{turn} will go first')
      
-
-    play_game = input("Are you ready to play? Yes or No. ") 
+    play_game = input(f"Are you ready to play {name}? Yes or No. ") 
+    
 
     if play_game.lower() == "yes":
         game_on = True
