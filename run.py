@@ -65,10 +65,11 @@ def full_board(board):
     function that checks if the board is full 
     and returns a boolean value.
     """
-    for space in range(1,10):
-        if check_if_space(board, space):
+    for i in range(1,10):
+        if check_if_space(board, i):
             return False
-        return True
+        else:
+            return True
 
 def check_for_win(board, mark):
 
@@ -88,11 +89,12 @@ def check_for_win(board, mark):
 
 
 def choose_first():
-     """
+
+    """
     a function that uses the random module to randomly decide which player goes first.
     """
 
-    if random.randint(0,1) == 0:
+    if random.randint(0, 1) == 0:
         return "Computer"
     else:
         return "Player 1"
@@ -102,44 +104,52 @@ while True:
 
     board = [" "]*10
 
-    user_marker, computer_marker = player_marker()
+    user_marker, computer_marker = player_marker() # Assign X and O to user and player
+    turn = choose_first()
+    print(f'{turn} will go first')
      
 
     play_game = input("Are you ready to play? Yes or No. ") 
 
-    if play_game.lower()[0] == "y":
+    if play_game.lower() == "yes":
         game_on = True
     else:
         game_on = False
     
 
     while game_on:
-        display_board(board)
-        position = player_choice(board)
-        place_player_marker(board, user_marker, position)
+        if turn == "Player 1":
 
-        if check_for_win(board, user_marker):
             display_board(board)
-            print("You Won")
-            game_on = False
-        else:
-            if full_board(board):
-                display_board(board)
-                print("It's a Draw")
-                break
-    
-    else:
-        display_board(board)
-        position = computer_choice(board)
-        place_player_marker(board, computer_marker, position)
+            position = player_choice(board)
+            place_player_marker(board, user_marker, position)
 
-        if check_for_win(board, computer_marker):
-            display_board(board)
-            print("You Lost")
-            game_on = False
-        else:
-            if full_board(board):
+            if check_for_win(board, user_marker):
                 display_board(board)
-                print("It's a Draw")
-                break
+                print("You Won")
+                game_on = False
+            else:
+                if full_board(board):
+                    display_board(board)
+                    print("It's a Draw")
+                    break
+                else:
+                    turn = "Computer"
+        
+        else:
+            display_board(board)
+            position = computer_choice(board)
+            place_player_marker(board, computer_marker, position)
+
+            if check_for_win(board, computer_marker):
+                display_board(board)
+                print("You Lost")
+                game_on = False
+            else:
+                if full_board(board):
+                    display_board(board)
+                    print("It's a Draw")
+                    break
+                else:
+                    turn = "Player 1"
 
