@@ -150,7 +150,7 @@ while True:
 
             if check_for_win(board, user_marker):
                 display_board(board)
-                print("You Won")
+                print(f"{name} Won")
                 game_on = False
             else:
                 if full_board(board):
@@ -168,7 +168,7 @@ while True:
 
             if check_for_win(board, computer_marker):
                 display_board(board)
-                print("You Lost")
+                print("Computer Won")
                 game_on = False
             else:
                 if full_board(board):
