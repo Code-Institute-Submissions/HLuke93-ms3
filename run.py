@@ -1,10 +1,16 @@
 import random
 
+import time
+
 
 def display_board(board):
     """
     Function to print out the board
     """
+    import os
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
     print("--------")
     print(board[7] + " |" + board[8] + " |" + board[9])
     print("--------")
