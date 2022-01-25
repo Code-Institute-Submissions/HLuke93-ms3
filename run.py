@@ -68,8 +68,7 @@ def check_if_space(board, position):
     """
     a function that returns True or False if a space on the board is freely available.
     """
-    if board[position] == " ":
-        return True
+    return board[position] == ' '
 
 def full_board(board):
     """
@@ -79,7 +78,7 @@ def full_board(board):
     for i in range(1,10):
         if check_if_space(board, i):
             return False
-        return True
+    return True
 
 def check_for_win(board, mark):
 
