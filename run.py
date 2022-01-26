@@ -2,12 +2,13 @@ import random
 
 import os
 
+
 def clear():
     """
     Clear the console/screen
     https://stackoverflow.com/questions/2084508/clear-terminal-in-python
     """
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 def display_board(board):
@@ -35,10 +36,9 @@ def display_board(board):
     print("--------")
 
 
-
 def player_marker():
     """
-    Function that can take a player input and assisgn their marker as 
+    Function that can take a player input and assisgn their marker as
     "X" or "O"
     """
     marker = ""
@@ -60,46 +60,53 @@ def place_player_marker(board, marker, position):
     board[position] = marker
 
 
-
 def player_choice(board):
 
     """
-    a function that asks for a player's next position (as a number 1-9) and then uses the check space function to check if its a free position. If it is, then return the position for later use. 
+    a function that asks for a player's next position (as a number 1-9) and then uses the check space function to check if its a free position. If it is, then return the position for later use.
     """
 
     position = 0
 
-    while position not in [1,2,3,4,5,6,7,8,9] or not check_if_space(board, position):
+    while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9] or not check_if_space(
+        board, position
+    ):
         position = int(input("Choose you position: (1-9): "))
 
     return position
 
+
 def computer_choice(board):
 
     """
-    a function that generates a random number for the computer between 1-9 and then  uses the check space function to check if its a free position. If it is, then return the position for later use. 
+    a function that generates a random number for the computer between 1-9 and then  uses the check space function to check if its a free position. If it is, then return the position for later use.
     """
 
     position = 0
-    while position not in [1,2,3,4,5,6,7,8,9] or not check_if_space(board, position):
-        position = random.randint(1,9)
+    while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9] or not check_if_space(
+        board, position
+    ):
+        position = random.randint(1, 9)
     return position
+
 
 def check_if_space(board, position):
     """
     a function that returns True or False if a space on the board is freely available.
     """
-    return board[position] == ' '
+    return board[position] == " "
+
 
 def full_board(board):
     """
-    function that checks if the board is full 
+    function that checks if the board is full
     and returns a boolean value.
     """
-    for i in range(1,10):
+    for i in range(1, 10):
         if check_if_space(board, i):
             return False
     return True
+
 
 def check_for_win(board, mark):
 
@@ -107,15 +114,28 @@ def check_for_win(board, mark):
     a function that takes in a board and checks to see if someone has won.
     """
 
-    return ((board[7] == mark and board[8] == mark and board[9] == mark) or # across the top
-    (board[4] == mark and board[5] == mark and board[6] == mark) or # across the middle
-    (board[1] == mark and board[2] == mark and board[3] == mark) or # across the bottom
-    (board[7] == mark and board[4] == mark and board[1] == mark) or # down the middle
-    (board[8] == mark and board[5] == mark and board[2] == mark) or # down the middle
-    (board[9] == mark and board[6] == mark and board[3] == mark) or # down the right side
-    (board[7] == mark and board[5] == mark and board[3] == mark) or # diagonal
-    (board[9] == mark and board[5] == mark and board[1] == mark)) # diagonal
-
+    return (
+        (board[7] == mark and board[8] == mark and board[9] == mark)
+        or (  # across the top
+            board[4] == mark and board[5] == mark and board[6] == mark
+        )
+        or (  # across the middle
+            board[1] == mark and board[2] == mark and board[3] == mark
+        )
+        or (  # across the bottom
+            board[7] == mark and board[4] == mark and board[1] == mark
+        )
+        or (  # down the middle
+            board[8] == mark and board[5] == mark and board[2] == mark
+        )
+        or (  # down the middle
+            board[9] == mark and board[6] == mark and board[3] == mark
+        )
+        or (  # down the right side
+            board[7] == mark and board[5] == mark and board[3] == mark
+        )
+        or (board[9] == mark and board[5] == mark and board[1] == mark)  # diagonal
+    )  # diagonal
 
 
 def choose_first():
@@ -135,29 +155,30 @@ def play_again():
     """
     Function to Play again or not.
     """
-    return input("Do you want to play again? Yes or No: ").lower().startswith('y')
+    return input("Do you want to play again? Yes or No: ").lower().startswith("y")
 
 
 while True:
 
-    board = [" "]*10
+    board = [" "] * 10
 
     name = input("Please Enter you Name: ")
-    user_marker, computer_marker = player_marker() # Assign X and O to user and Computer
+    (
+        user_marker,
+        computer_marker,
+    ) = player_marker()  # Assign X and O to user and Computer
     turn = choose_first()
-    print(f'{turn} will go first')
-     
+    print(f"{turn} will go first")
+
     play_game = input(f"Are you ready to play {name}? Yes or No. ").lower()
 
     if play_game == "no":
         break
-    
 
     if play_game.lower() == "yes":
         game_on = True
     else:
         game_on = False
-    
 
     while game_on:
         if turn == "Player 1":
@@ -177,7 +198,7 @@ while True:
                     break
                 else:
                     turn = "Computer"
-        
+
         else:
 
             display_board(board)
@@ -195,7 +216,6 @@ while True:
                     break
                 else:
                     turn = "Player 1"
-
 
     if not play_again():
         break
