@@ -156,12 +156,13 @@ def play_again():
     Function to Play again or not.
     """
     return input("Do you want to play again? Yes or No: ").lower().startswith("y")
+    
 
 
 while True:
 
     board = [" "] * 10
-
+    clear()
     name = input("Please Enter you Name: ")
     (
         user_marker,
