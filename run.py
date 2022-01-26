@@ -162,6 +162,8 @@ while True:
 
     board = [" "] * 10
     clear()
+    print("\033[1;34;40mWELCOME TO TIC TAC TOE")
+    print("")
     name = input("Please Enter you Name: ")
     clear()
     print(f"Welcome To Tic Tac Toe {name}.....")
