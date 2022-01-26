@@ -16,7 +16,7 @@ def display_board(board):
     Function to print out the board
     """
     clear()
-    print("REFERENCE BOARD")
+    print("\033[1;34;40mREFERENCE BOARD")
 
     print("---------")
     print("7" + " |" + " 8" + " |" + " 9")
@@ -25,8 +25,8 @@ def display_board(board):
     print("---------")
     print("1" + " |" + " 2" + " |" + " 3")
     print("---------")
-    print(" ")
-    print("GAME BOARD")
+    print("\033[0;37;40m")
+    print("\033[1;37;40mGAME BOARD")
     print("--------")
     print(board[7] + " |" + board[8] + " |" + board[9])
     print("--------")
