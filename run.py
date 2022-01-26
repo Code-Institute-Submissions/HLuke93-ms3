@@ -147,7 +147,10 @@ while True:
     turn = choose_first()
     print(f'{turn} will go first')
      
-    play_game = input(f"Are you ready to play {name}? Yes or No. ") 
+    play_game = input(f"Are you ready to play {name}? Yes or No. ").lower()
+
+    if play_game == "no":
+        break
     
 
     if play_game.lower() == "yes":
