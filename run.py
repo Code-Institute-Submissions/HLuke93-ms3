@@ -45,6 +45,7 @@ def player_marker():
 
     while not (marker == "X" or marker == "O"):
         marker = input("Player 1: Do you want to be X or O? ").upper()
+        print("")
 
     if marker == "X":
         return ("X", "O")
@@ -164,12 +165,13 @@ while True:
     board = [" "] * 10
     clear()
     name = input("Please Enter you Name: ")
-    (
-        user_marker,
-        computer_marker,
-    ) = player_marker()  # Assign X and O to user and Computer
+    clear()
+    print(f"Welcome To Tic Tac Toe {name}.....")
+    print("")
+    user_marker, computer_marker = player_marker()  # Assign X and O to user and Computer
     turn = choose_first()
     print(f"{turn} will go first")
+    print("")
 
     play_game = input(f"Are you ready to play {name}? Yes or No. ").lower()
 
