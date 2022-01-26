@@ -69,12 +69,10 @@ def player_choice(board):
 
     position = 0
 
-    while position not in [1, 2, 3, 4, 5, 6, 7, 8, 9] or not check_if_space(
-        board, position
-    ):
-        position = int(input("Choose you position: (1-9): "))
+    while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"] or not check_if_space(board, int(position)):
+        position = input("Choose you position: (1-9): ")
 
-    return position
+    return int(position)
 
 
 def computer_choice(board):
