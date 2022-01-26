@@ -1,31 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tic Tac Toe -v- Computer (by Luke Hickson)
 
-Welcome HLuke93,
+Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.  [Live Website Here]().
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## Table of Contents
 
-## Reminders
+1. [Rules of the Game ](#Rules)
+2. [User Goals](#User-goals)
+3. [User Expectations](#User-expectations)
+4. [Features](#features)
+   1. [Existing Features](#Existing-Features)
+   2. [Future Features](#Future-Features)
+5. [How the game is Played](#How-the-game-is-Played)
+6. [Testing](#Testing)
+   1. [Manual Testing](#Manual-Testing) 
+   2. [Validator Testing](#Validator-Testing) 
+   3. [Solved Bugs](#Solved-Bugs)
+7. [Deployment](#Deployment)
+8. [Credits](#Credits)
+    1. [Technologies Used](#Technologies-Used) 
+    2. [Content](#Content) 
+    3. [Media](#Media)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
 
-## Creating the Heroku app
+<br>
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+# Rules of the Game (Historically)
+<br>
 
-1. `heroku/python`
-2. `heroku/nodejs`
+[Go to the top](#Table-of-Contents)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+<br>
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
+# User Goals
 
-## Constraints
+<br>
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+[Go to the top](#Table-of-Contents)
 
------
-Happy coding!
+
+<br>
+
+
+
+<br>
+
+# User Expectations
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
+
+
+
+
+<br>
+
+
+# Features
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
+
+## Existing Features
+<br>
+
+
+
+<br>
+
+
+<br>
+
+
+
+* **Game Rules**
+<br>
+
+<br>
+
+
+<br>
+<br>
+<br>
+
+## Future Features
+
+<br>
+
+<br>
+
+# How the game is Played
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
+
+
+
+# Testing
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
+
+## Manual Testing
+
+<br>
+
+
+
+## Game Testing
+<br>
+
+
+<br>
+
+
+<br>
+
+## Validator Testing
+<br>
+
+
+<br>
+## Solved Bugs
+<br>
+
+
+<br>
+
+# Deployment
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
+
+## GitHub Pages
+<br>
+
+
+<br>
+
+# Credits
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
+
+## Technologies Used
+<br>
+
+
+<br>
+
+## Content 
+<br>
+
+
+
+<br>
+
+## Media
+
+<br>
+
+
+
+
