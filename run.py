@@ -16,7 +16,7 @@ def display_board(board):
     Function to print out the board
     """
     clear()
-    print("\033[1;34;40mREFERENCE BOARD")
+    print("\033[1;34;34mREFERENCE BOARD")
 
     print("---------")
     print("7" + " |" + " 8" + " |" + " 9")
@@ -25,8 +25,8 @@ def display_board(board):
     print("---------")
     print("1" + " |" + " 2" + " |" + " 3")
     print("---------")
-    print("\033[0;37;40m")
-    print("\033[1;37;40mGAME BOARD")
+    print("\033[1;35;35m")
+    print("\033[1;35;35mGAME BOARD")
     print("--------")
     print(board[7] + " |" + board[8] + " |" + board[9])
     print("--------")
@@ -44,7 +44,7 @@ def player_marker():
     marker = ""
 
     while not (marker == "X" or marker == "O"):
-        marker = input("Player 1: Do you want to be X or O? ").upper()
+        marker = input(f"{name}: Do you want to be X or O? ").upper()
         print("")
 
     if marker == "X":
@@ -162,7 +162,7 @@ while True:
 
     board = [" "] * 10
     clear()
-    print("\033[1;34m")
+    print("\033[1;35;35m")
     print(""" 
              ###### ## ######     ###### ###### ######
                ##   ## ##           ##   ##  ## ##
@@ -178,16 +178,17 @@ while True:
 
              """)
     print("")
+    print(f"Welcome To Tic Tac Toe.")
     name = input("Please Enter you Name: ")
     clear()
-    print(f"Welcome To Tic Tac Toe {name}.....")
+    print(f"Welcome {name}.....")
     print("")
     user_marker, computer_marker = player_marker()  # Assign X and O to user and Computer
     turn = choose_first()
     print(f"{turn} will go first")
     print("")
 
-    play_game = input(f"Are you ready to play {name}? Yes or No. ").lower()
+    play_game = input(f"\033[1;35;35mAre you ready to play {name}? Yes or No. ").lower()
 
     if play_game == "no":
         break
@@ -235,5 +236,8 @@ while True:
                     turn = "Player 1"
 
     if not play_again():
+        clear()
+        print("\033[1;35;35mThanks for playing !!!...If you would like to play again, just refresh the "
+            "page or press the\n'run program' button above!\n")
         break
 
