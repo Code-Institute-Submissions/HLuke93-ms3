@@ -163,7 +163,20 @@ while True:
     board = [" "] * 10
     clear()
     print("\033[1;34m")
-    print("WELCOME TO TIC TAC TOE")
+    print(""" 
+             ##### # #####     ##### #### #####
+               #   # #           #   #  # #
+               #   # #     ###   #   #### #
+               #   # #           #   #  # #
+               #   # #####       #   #  # #####
+
+                     ##### #### ####
+                       #   #  # #
+                       #   #  # ####
+                       #   #  # #
+                       #   #### ####
+
+             """)
     print("")
     name = input("Please Enter you Name: ")
     clear()
