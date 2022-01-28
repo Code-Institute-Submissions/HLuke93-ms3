@@ -55,7 +55,7 @@ def player_marker():
 
 def place_player_marker(board, marker, position):
     """
-    function that takes in the board list , a marker ('X' or 'O'), and a 
+    function that takes in the board list , a marker ('X' or 'O'), and a
     desired position (number 1-9) and assigns it to the board.
     """
 
@@ -65,19 +65,21 @@ def place_player_marker(board, marker, position):
 def player_choice(board):
 
     """
-    a function that asks for a player's next position (as a number 1-9) and then 
-    uses the check space function to check if its a free position. If it is,
-    then return the position for later use.
+    a function that asks for a player's next position (as a number 1-9) and
+    then uses the check space function to check if its a free position.
+    If it is,then return the position for later use.
     """
 
     position = 0
 
-    while position not in ["1", "2", "3", "4", "5", 
-    "6", "7", "8", "9"] or not check_if_space(
-        board, int(position)):
+    while position not in ["1", "2", "3", "4", "5",
+                           "6", "7", "8", "9"] or not check_if_space(
+                           board, int(position)):
         position = input("Choose you position: (1-9): ")
 
     return int(position)
+
+
 
 
 def computer_choice(board):
