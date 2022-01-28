@@ -55,7 +55,8 @@ def player_marker():
 
 def place_player_marker(board, marker, position):
     """
-    function that takes in the board list , a marker ('X' or 'O'), and a desired position (number 1-9) and assigns it to the board.
+    function that takes in the board list , a marker ('X' or 'O'), and a 
+    desired position (number 1-9) and assigns it to the board.
     """
 
     board[position] = marker
@@ -64,12 +65,16 @@ def place_player_marker(board, marker, position):
 def player_choice(board):
 
     """
-    a function that asks for a player's next position (as a number 1-9) and then uses the check space function to check if its a free position. If it is, then return the position for later use.
+    a function that asks for a player's next position (as a number 1-9) and then 
+    uses the check space function to check if its a free position. If it is,
+    then return the position for later use.
     """
 
     position = 0
 
-    while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"] or not check_if_space(board, int(position)):
+    while position not in ["1", "2", "3", "4", "5", 
+    "6", "7", "8", "9"] or not check_if_space(
+        board, int(position)):
         position = input("Choose you position: (1-9): ")
 
     return int(position)
@@ -78,7 +83,9 @@ def player_choice(board):
 def computer_choice(board):
 
     """
-    a function that generates a random number for the computer between 1-9 and then  uses the check space function to check if its a free position. If it is, then return the position for later use.
+    a function that generates a random number for the computer between 1-9 and
+    then uses the check space function to check if its a free position.
+    If it is, then return the position for later use.
     """
 
     position = 0
@@ -91,7 +98,8 @@ def computer_choice(board):
 
 def check_if_space(board, position):
     """
-    a function that returns True or False if a space on the board is freely available.
+    a function that returns True or False if a space on the board 
+    is freely available.
     """
     return board[position] == " "
 
@@ -132,15 +140,16 @@ def check_for_win(board, mark):
         )
         or (  # down the right side
             board[7] == mark and board[5] == mark and board[3] == mark
-        )
-        or (board[9] == mark and board[5] == mark and board[1] == mark)  # diagonal
+        ) # diagonal
+        or (board[9] == mark and board[5] == mark and board[1] == mark)  
     )  # diagonal
 
 
 def choose_first():
 
     """
-    a function that uses the random module to randomly decide which player goes first.
+    a function that uses the random module to randomly decide which
+    player goes first.
     """
 
     if random.randint(0, 1) == 0:
@@ -178,12 +187,13 @@ while True:
 
              """)
     print("")
-    print(f"Welcome To Tic Tac Toe.")
+    print("Welcome To Tic Tac Toe.")
     name = input("Please Enter you Name: ")
     clear()
     print(f"Welcome {name}.....")
     print("")
-    user_marker, computer_marker = player_marker()  # Assign X and O to user and Computer
+    # Assign X and O to user and Computer
+    user_marker, computer_marker = player_marker()
     turn = choose_first()
     print(f"{turn} will go first")
     print("")
@@ -239,7 +249,8 @@ while True:
 
     if not play_again():
         clear()
-        print("\033[1;35;35mThanks for playing !!!...If you would like to play again, just refresh the "
-            "page or press the\n'run program' button above!\n")
+        print("\033[1;35;35mThanks for playing !!!...If you would like"
+        "to play again, just refresh the page or press the\n'run program'" 
+        " button above!\n")
         break
 
