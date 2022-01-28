@@ -147,8 +147,8 @@ def play_again():
     """
     Function to Play again or not.
     """
-    return input("Do you want to play again?" 
-                 "Yes or No: ").lower().startswith("y")
+    return input("\033[1;37;37mDo you want to play again?" 
+                 " Yes or No: ").lower().startswith("y")
 
 while True:
 
@@ -202,12 +202,14 @@ while True:
 
             if check_for_win(board, user_marker):
                 display_board(board)
-                print(f"{name} Won")
+                print("")
+                print(f"\033[1;32;32m{name} Won")
                 game_on = False
             else:
                 if full_board(board):
                     display_board(board)
-                    print("It's a Draw")
+                    print("")
+                    print("\033[1;37;40mIt's a Draw")
                     break
                 else:
                     turn = "Computer"
@@ -220,12 +222,14 @@ while True:
 
             if check_for_win(board, computer_marker):
                 display_board(board)
-                print("Computer Won")
+                print("")
+                print("\033[1;31;31mComputer Won!!")
                 game_on = False
             else:
                 if full_board(board):
                     display_board(board)
-                    print("It's a Draw")
+                    print("")
+                    print("\033[1;37;40mIt's a Draw")
                     break
                 else:
                     turn = "Player 1"
