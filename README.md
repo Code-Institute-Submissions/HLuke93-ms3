@@ -50,7 +50,9 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 ## Game Flow
 
 <br>
-![Flow Chart](Images/flow.png)
+
+![Game Flow](Images/flow.png)
+
 <br>
 
 
@@ -89,13 +91,9 @@ Reference board color, Blue ("\033[1;34;34m").
 
 <br> 
 
-
-
 [Go to the top](#Table-of-Contents)
 
-
 <br>
-
 
 # Features
 
