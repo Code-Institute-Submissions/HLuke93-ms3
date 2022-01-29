@@ -184,15 +184,17 @@ Currently it is only a randomly generated computer choice.
 # Testing
 
 <br>
+
 ## Python
+
 Python was tested using PEP8 PEP8 validator
 
 The Python results came back with the following:
 
 
-![PEP8](Images/pep81.png)
+![PEP8](Images/pep81.PNG)
 
-![PEP8](Images/pep82g.png)
+![PEP8](Images/pep82g.PNG)
 
 
 
