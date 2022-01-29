@@ -43,9 +43,9 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 
 
 # User Goals
-<br?
+<br>
 
-I want to create a game that is easy to navigate for users.
+## I want to create a game that is easy to navigate for users.
 
 Was this achieved?
 Yes
@@ -54,7 +54,7 @@ This was achieved by taking a very simple apporach to the classic Tic Tac Toe.
 The game will run in a smooth loop to allow the user to keep playing as many times as they want to or can end the game.
 
 
-I want the user to play against a computer rather than a 2 player game.
+## I want the user to play against a computer rather than a 2 player game.
 
 Was this achieved?
 Yes
@@ -62,12 +62,14 @@ How was this achieved?
 This was achieved by creating a computer choice function which randomly generates a choice on the board for the computer.  
 
 
-I want to make it clear by using a color scheme (Win=Green , Lose=Red) the outcome of the game
+## I want to make it clear by using a color scheme (Win=Green , Lose=Red) the outcome of the game
 
 Was this achieved?
 Yes
 How was this achieved?
 This was achieved by adding color to the various outcomes of the game. 
+
+## Colors
 
 Winner Message, Green ("\033[1;34m"). 
 Lose Message, Red ("\033[1;31;31m").
@@ -90,7 +92,7 @@ Reference board color, Blue ("\033[1;34;34m").
 
 <br>
 
-Welcome page
+## Welcome page
 
 This is the first page you see when the app loads. On this page there is a Tic Tac Toe image located at the top of the screen, a welcoem message and a question to the user. The question asks the user "Please Enter Your Name: ".
 
@@ -98,7 +100,7 @@ This is the first page you see when the app loads. On this page there is a Tic T
 
 <br>
 
-Choose Marker
+## Choose Marker
 
 The player is welcomed by name and asked to choose a marker to play with. "X" or "O".
 
@@ -106,7 +108,7 @@ The player is welcomed by name and asked to choose a marker to play with. "X" or
 
 <br>
 
-Ready to Play?
+## Ready to Play?
 
 After the user chooses a marker , either the user of computer will play first.
 The user is asked one more time if they are ready to play?
@@ -115,7 +117,7 @@ The user is asked one more time if they are ready to play?
 
 <br>
 
-Main Game Screen
+## Main Game Screen
 
 The user is presented with the main game screen. A reference board in blue and a game board in pink.
 The user is asked to pick a position to drop their marker.
