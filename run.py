@@ -147,7 +147,7 @@ def play_again():
     """
     Function to Play again or not.
     """
-    return input("\033[1;37;37mDo you want to play again?" 
+    return input("\033[1;37;37mDo you want to play again?"
                  " Yes or No: ").lower().startswith("y")
 
 while True:
@@ -155,7 +155,7 @@ while True:
     board = [" "] * 10
     clear()
     print("\033[1;35;35m")
-    print(""" 
+    print("""
              ###### ## ######     ###### ###### ######
                ##   ## ##           ##   ##  ## ##
                ##   ## ##     ###   ##   ###### ##
@@ -184,7 +184,7 @@ while True:
     play_game = ""
 
     while not (play_game == "yes" or play_game == "no"):
-        play_game = input(f"\033[1;35;35mAre you ready to play {name}?" 
+        play_game = input(f"\033[1;35;35mAre you ready to play {name}?"
                           " Yes or No: ").lower()
 
         if play_game == "no":
@@ -240,3 +240,4 @@ while True:
               " to play again, just refresh the page"
               " or press the\n'run program' button above!\n")
         break
+
