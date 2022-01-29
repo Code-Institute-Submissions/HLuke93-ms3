@@ -48,6 +48,7 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 <br>
 
 ## Game Flow
+
 <br>
 ![Flow Chart](Images/flow.png)
 <br>
