@@ -171,7 +171,7 @@ while True:
              """)
     print("")
     print("Welcome To Tic Tac Toe.")
-    name = input("Please Enter you Name: ")
+    name = input("Please Enter Your Name: ")
     clear()
     print(f"Welcome {name}.....")
     print("")
