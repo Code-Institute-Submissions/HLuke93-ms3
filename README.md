@@ -199,7 +199,7 @@ The Python results came back with the following:
 
 ![PEP8](Images/pep81.PNG)
 
-![PEP8](Images/pep82g.PNG)
+![PEP8](Images/pep82.PNG)
 
 
 
