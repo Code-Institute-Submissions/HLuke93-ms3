@@ -82,11 +82,11 @@ This was achieved by adding color to the various outcomes of the game.
 
 ## Colors
 
-Winner Message, Green ("\033[1;34m"). 
-Lose Message, Red ("\033[1;31;31m").
-Draw Message, White ("\033[1;37;40m").
+Winner Message, Green ("\033[1;34m").\
+Lose Message, Red ("\033[1;31;31m").\
+Draw Message, White ("\033[1;37;40m").\
 
-Main Game Color,Pink ("\033[1;35;35m").
+Main Game Color,Pink ("\033[1;35;35m").\
 Reference board color, Blue ("\033[1;34;34m").
 
 <br> 
