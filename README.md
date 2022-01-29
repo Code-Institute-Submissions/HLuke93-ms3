@@ -58,26 +58,26 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 
 ## I want to create a game that is easy to navigate for users.
 
-Was this achieved?
-Yes
-How was this achieved?
-This was achieved by taking a very simple apporach to the classic Tic Tac Toe.
+Was this achieved?\
+Yes\
+How was this achieved?\
+This was achieved by taking a very simple apporach to the classic Tic Tac Toe.\
 The game will run in a smooth loop to allow the user to keep playing as many times as they want to or can end the game.
 
 
 ## I want the user to play against a computer rather than a 2 player game.
 
-Was this achieved?
-Yes
-How was this achieved?
+Was this achieved?\
+Yes\
+How was this achieved?\
 This was achieved by creating a computer choice function which randomly generates a choice on the board for the computer.  
 
 
 ## I want to make it clear by using a color scheme (Win=Green , Lose=Red) the outcome of the game
 
-Was this achieved?
-Yes
-How was this achieved?
+Was this achieved?\
+Yes\
+How was this achieved?\
 This was achieved by adding color to the various outcomes of the game. 
 
 ## Colors
