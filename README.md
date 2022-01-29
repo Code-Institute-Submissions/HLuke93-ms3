@@ -127,16 +127,30 @@ If the computer was chose to go first , it's move will already be on the board.
 
 <br>
 
+## User Win Screen
+
+The user is presented with a winner message in green , and asked if they want to play again
+
+![User Win](Images/userwin.png)
+
+<br>
+
+## Computer Win Screen
+
+The user is presented with a loosing message in red , and asked if they want to play again
+
+![Computer Win](Images/computerwin.png)
 
 
+<br>
 
+## Draw Screen
 
+The user is presented with a draw message in white , and asked if they want to play again
 
+![Draw Screen](Images/draw.png)
 
-
-
-
-
+<br>
 
 
 [Go to the top](#Table-of-Contents)
