@@ -34,7 +34,7 @@ There is no universally-agreed rule as to who plays first.
 The Aim of the game is the get three of your marks in a horizontal, vertical, or diagonal row.
 Players soon discover that the best play from both parties leads to a draw. Hence, tic-tac-toe is often played by young children who may not have discovered the optimal strategy.
 <br>
-![Tic Tac Toe Board](Images/winner.png)
+![Tic Tac Toe Board](Images/main.png)
 <br>
 
 [Go to the top](#Table-of-Contents)
