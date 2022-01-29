@@ -1,8 +1,10 @@
 # Tic Tac Toe -v- Computer (by Luke Hickson)
 
 Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.  [Live Website Here]().
+<br>
 
 ![Tic Tac Toe Board](Images/boardimage.jpg)
+<br>
 
 ## Table of Contents
 
@@ -10,8 +12,7 @@ Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or X
 2. [User Goals](#User-goals)
 3. [User Expectations](#User-expectations)
 4. [Features](#features)
-   1. [Existing Features](#Existing-Features)
-   2. [Future Features](#Future-Features)
+   1. [Future Features](#Future-Features)
 5. [How the game is Played](#How-the-game-is-Played)
 6. [Testing](#Testing)
    1. [Manual Testing](#Manual-Testing) 
@@ -34,6 +35,7 @@ There is no universally-agreed rule as to who plays first.
 The Aim of the game is the get three of your marks in a horizontal, vertical, or diagonal row.
 Players soon discover that the best play from both parties leads to a draw. Hence, tic-tac-toe is often played by young children who may not have discovered the optimal strategy.
 <br>
+
 ![Tic Tac Toe Board](Images/main.png)
 <br>
 
@@ -152,47 +154,23 @@ The user is presented with a draw message in white , and asked if they want to p
 
 <br>
 
+## Thanks for Playing Screen
+
+The user has selectted that they do not want to play again and is displayed the message below.
+
+![Thanks for Playing](Images/thanksforplaying.png)
+
+<br>
+
 
 [Go to the top](#Table-of-Contents)
 
 
 <br>
 
-## Existing Features
-<br>
 
 
-
-<br>
-
-
-<br>
-
-
-
-* **Game Rules**
-<br>
-
-<br>
-
-
-<br>
-<br>
-<br>
-
-## Future Features
-
-<br>
-
-<br>
-
-# How the game is Played
-<br>
-
-[Go to the top](#Table-of-Contents)
-
-
-<br>
+# Future Features
 
 
 
