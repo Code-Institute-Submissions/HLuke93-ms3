@@ -131,7 +131,7 @@ If the computer was chose to go first , it's move will already be on the board.
 
 ## User Win Screen
 
-The user is presented with a winner message in green , and asked if they want to play again
+In the event of the user winning, the user is presented with a winner message in green , and asked if they want to play again
 
 ![User Win](Images/userwin.png)
 
@@ -139,7 +139,7 @@ The user is presented with a winner message in green , and asked if they want to
 
 ## Computer Win Screen
 
-The user is presented with a loosing message in red , and asked if they want to play again
+In the event of the computer winning, the user is presented with a loosing message in red , and asked if they want to play again
 
 ![Computer Win](Images/computerwin.png)
 
@@ -148,7 +148,7 @@ The user is presented with a loosing message in red , and asked if they want to 
 
 ## Draw Screen
 
-The user is presented with a draw message in white , and asked if they want to play again
+In the event of a draw, the user is presented with a draw message in white , and asked if they want to play again
 
 ![Draw Screen](Images/draw.png)
 
@@ -172,11 +172,30 @@ The user has selectted that they do not want to play again and is displayed the 
 
 # Future Features
 
+## Minimax Algorithim
+
+In the future i woudl like to implennt the Minimax algorithm for the computer choice.
+This would add a much higher level of difficulty to the game.
+Currently it is only a randomly generated computer choice.
+
+## 
 
 
 # Testing
 
 <br>
+## Python
+Python was tested using PEP8 PEP8 validator
+
+The Python results came back with the following:
+
+
+![PEP8](Images/pep81.png)
+
+![PEP8](Images/pep82g.png)
+
+
+
 
 [Go to the top](#Table-of-Contents)
 
