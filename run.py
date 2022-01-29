@@ -238,5 +238,5 @@ while True:
         clear()
         print("\033[1;35;35mThanks for playing !!!...If you would like"
               "to play again, just refresh the page"
-              "or press the\n'run program' button above!\n")
+              " or press the\n'run program' button above!\n")
         break
