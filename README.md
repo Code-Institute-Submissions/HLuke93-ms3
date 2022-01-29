@@ -43,28 +43,44 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 
 
 # User Goals
+<br?
 
-<br>
+I want to create a game that is easy to navigate for users.
+
+Was this achieved?
+Yes
+How was this achieved?
+This was achieved by taking a very simple apporach to the classic Tic Tac Toe.
+The game will run in a smooth loop to allow the user to keep playing as many times as they want to or can end the game.
+
+
+I want the user to play against a computer rather than a 2 player game.
+
+Was this achieved?
+Yes
+How was this achieved?
+This was achieved by creating a computer choice function which randomly generates a choice on the board for the computer.  
+
+
+I want to make it clear by using a color scheme (Win=Green , Lose=Red) the outcome of the game
+
+Was this achieved?
+Yes
+How was this achieved?
+This was achieved by adding color to the various outcomes of the game. 
+
+Winner Message, Green ("\033[1;34m"). 
+Lose Message, Red ("\033[1;31;31m").
+Draw Message, White ("\033[1;37;40m").
+
+Main Game Color,Pink ("\033[1;35;35m").
+Reference board color, Blue ("\033[1;34;34m").
+
+<br> 
+
+
 
 [Go to the top](#Table-of-Contents)
-
-
-<br>
-
-
-
-<br>
-
-# User Expectations
-
-<br>
-
-[Go to the top](#Table-of-Contents)
-
-
-<br>
-
-
 
 
 <br>
@@ -73,6 +89,53 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 # Features
 
 <br>
+
+Welcome page
+
+This is the first page you see when the app loads. On this page there is a Tic Tac Toe image located at the top of the screen, a welcoem message and a question to the user. The question asks the user "Please Enter Your Name: ".
+
+![Welcome Page](Images/welcome.png)
+
+<br>
+
+Choose Marker
+
+The player is welcomed by name and asked to choose a marker to play with. "X" or "O".
+
+![Choose Marker Page](Images/markerchoice.png)
+
+<br>
+
+Ready to Play?
+
+After the user chooses a marker , either the user of computer will play first.
+The user is asked one more time if they are ready to play?
+
+![Ready to Play](Images/readytoplay.png)
+
+<br>
+
+Main Game Screen
+
+The user is presented with the main game screen. A reference board in blue and a game board in pink.
+The user is asked to pick a position to drop their marker.
+If the computer was chose to go first , it's move will already be on the board.
+
+![Main Board](Images/gamestart.png)
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 [Go to the top](#Table-of-Contents)
 
