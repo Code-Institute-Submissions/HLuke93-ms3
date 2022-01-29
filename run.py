@@ -75,7 +75,7 @@ def player_choice(board):
     while position not in ["1", "2", "3", "4", "5",
                            "6", "7", "8", "9"] or not check_if_space(
                            board, int(position)):
-        position = input("Choose you position: (1-9): ")
+        position = input("Choose your position: (1-9): ")
 
     return int(position)
 
@@ -236,7 +236,7 @@ while True:
 
     if not play_again():
         clear()
-        print("\033[1;35;35mThanks for playing !!!...If you would like"
-              "to play again, just refresh the page"
+        print("\033[1;35;35mThanks for playing... If you would like"
+              " to play again, just refresh the page"
               " or press the\n'run program' button above!\n")
         break
