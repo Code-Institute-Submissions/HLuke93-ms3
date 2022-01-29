@@ -47,6 +47,12 @@ Players soon discover that the best play from both parties leads to a draw. Henc
 # User Goals
 <br>
 
+## Game Flow
+<br>
+![Flow Chart](Images/flow.png)
+<br>
+
+
 ## I want to create a game that is easy to navigate for users.
 
 Was this achieved?
