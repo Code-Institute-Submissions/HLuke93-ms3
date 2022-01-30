@@ -80,7 +80,7 @@ Yes\
 How was this achieved?\
 This was achieved by adding color to the various outcomes of the game. 
 
-## Colors
+## Game Colors
 
 Winner Message, Green ("\033[1;34m").\
 Lose Message, Red ("\033[1;31;31m").\
@@ -201,6 +201,36 @@ The Python results came back with the following:
 
 ![PEP8](Images/pep82.PNG)
 
+<hr>
+
+**E501(Line Too Long)
+<br>
+Resolved
+<br>
+**W503(Line Break Before Binary Operator)
+<br>
+Resolved
+<br>
+**E303(Too Many Blank Lines)
+<br>
+Resolved
+<br>
+**W293(Blank Line Contains Whitespace)
+<br>
+Resolved
+<br>
+**W291(Trailing Whitespace)
+<br>
+Resolved
+<br>
+**E128(Continuation Line Under-Indented For Visual Indent)
+<br>
+Resolved
+<br>
+**W391(Blank Line At End Of File)
+<br>
+Resolved
+<br>
 
 
 
