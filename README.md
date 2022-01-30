@@ -279,7 +279,7 @@ This was tested and works as expected. (The Letter F was tested as a name)
 * If neither "X" or "O" is entered , the program will keep asking the name quesitons until a valid input is recieved.
 
 ![Choose 1](Images/enter1.png)
-![Choose R](Images/enter2.png)
+![Choose R](Images/enterr.png)
 
 <br>
 
