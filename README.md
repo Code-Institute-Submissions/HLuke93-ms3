@@ -283,6 +283,16 @@ This was tested and works as expected. (The Letter F was tested as a name)
 
 <br>
 
+* A random decision is then made if the user or computer goes first. 
+* This was tested by running the program multiple times to see both decisions.
+
+![User First](Images/player1first.png)
+![Computer First](Images/computerfirst.png)
+
+<br>
+
+
+
 * The user is then asked if they are ready to play (Yes or No).\
 * A bug was found here when the user enters no.\
 * This was resolved by amending the play_game variable code.
@@ -317,6 +327,40 @@ This was tested and works as expected. (The Letter F was tested as a name)
  
  ![Thanks For Playing](Images/thanksforplaying.png)
  
+ <br>
+ 
+ * When the user selection "Yes" that they are ready to play the game, the reference board is displayed and the game board.
+
+![Main Board](Images/gamestart.png)
+
+<br>
+
+* A number from 1-9 must be entered in by the user.
+* Any other entry will result in the user being asked again for a selection.
+* Even a empty space will ask the user for antoher choice
+
+![Incorrect Entry](Images/incorrectchoice.png)
+
+<br>
+
+* When the User Wins the game , a user win message is displayed
+
+<br>
+
+
+* When the User loses the game , a computer win message is displayed
+
+<br>
+
+
+* When the User Draws the game , a Draw message is displayed
+
+<br>
+
+
+
+
+
  
 
  
