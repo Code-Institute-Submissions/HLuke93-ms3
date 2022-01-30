@@ -3,7 +3,7 @@
 Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.  [Live Website Here]().
 <br>
 
-![Tic Tac Toe Board](Images/boardimage.png)
+![Tic Tac Toe Board](Images/main.png)
 <br>
 
 ## Table of Contents
@@ -34,7 +34,8 @@ The Aim of the game is the get three of your marks in a horizontal, vertical, or
 Players soon discover that the best play from both parties leads to a draw. Hence, tic-tac-toe is often played by young children who may not have discovered the optimal strategy.
 <br>
 
-![Tic Tac Toe Board](Images/main.png)
+![Tic Tac Toe Board](Images/boardimage.png)
+
 <br>
 
 [Go to the top](#Table-of-Contents)
