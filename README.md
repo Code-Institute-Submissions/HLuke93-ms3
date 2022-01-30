@@ -254,6 +254,58 @@ Resolved
 
 ## Manual Testing
 
+When the gaem is first run , the user can eneter in any name , which may include letters , numbers and special characters.
+This was tested and works as expected. (The Letter F was tested as a name)
+
+![Welcome "F"](Images/welcomef.png)
+
+<br>
+
+The user is then asked if you want to choose "X" or "O".
+If neither "X" or "O" is entered , the program will keep asking the name quesitons until a valid input is recieved.
+
+![Choose 1](Images/enter1.png)
+![Choose R](Images/enter2.png)
+
+<br>
+
+The user is then asked if they are ready to play (Yes or No).\
+A bug was found here when the user enters no.\
+This was resolved by amending the play_game variable code.
+
+ This is the error that was recieved
+ 
+ ![Ready to Play Error](Images/readytoplaynoerror.png)
+ 
+ <br>
+ 
+
+"""
+ play_game = input('Are you ready to play? Enter Yes or No. ')
+    
+    if play_game.lower()[0] == 'y':
+        game_on = True
+    else:
+        game_on = False
+ """
+ 
+ <br>
+ 
+ After this amendment , the code worked as expected.
+ 
+Once the user selects "No" , They are then asked if they wish to "play again".\
+If not , the user is displayed a thank you message , and instrucitons how to paly again.
+
+ 
+ ![Play Again No](Images/readytoplayno.png)
+ 
+ ![Thanks For Playing](Images/thanksforplaying.png)
+ 
+ 
+
+ 
+ 
+
 <br>
 
 
