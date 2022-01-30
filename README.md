@@ -363,7 +363,7 @@ This was tested and works as expected. (The Letter F was tested as a name)
 
 * Do you want to play again screen
 * If "Yes", the game restarts to the welcome screen
-* If "No" , the ends with the ending message and intructions how to play again
+* If anyhing else other than "Y" or "Ye" or "Yes" is entered , the game ends with the ending message and intructions how to play again
 
 ![Welcome Page](Images/welcome.png)
 ![Thanks For Playing](Images/thanksforplaying.png)
