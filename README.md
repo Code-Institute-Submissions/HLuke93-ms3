@@ -190,7 +190,7 @@ Currently it is only a randomly generated computer choice.
 
 ## Python
 
-Python was tested using PEP8 PEP8 validator
+Python was tested using PEP8 validator
 
 The Python results came back with the following:
 
@@ -202,30 +202,43 @@ The Python results came back with the following:
 <hr>
 
 ## E501(Line Too Long)
+
 <br>
 Resolved
 <br>
+
 ## W503(Line Break Before Binary Operator)
+
 <br>
 Resolved
 <br>
+
 ## E303(Too Many Blank Lines)
+
 <br>
 Resolved
 <br>
+
 ## W293(Blank Line Contains Whitespace)
+
 <br>
 Resolved
 <br>
+
 ## W291(Trailing Whitespace)
+
 <br>
 Resolved
 <br>
+
 ## E128(Continuation Line Under-Indented For Visual Indent)
+
 <br>
 Resolved
 <br>
+
 ## W391(Blank Line At End Of File)
+
 <br>
 Resolved
 <br>
