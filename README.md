@@ -191,14 +191,13 @@ This would add a much higher level of difficulty to the game.
 Currently it is only a randomly generated computer choice.
 
 <br>
-<br>
-<br>
+
 
 # Testing
 
 <br>
 
-## Python
+## Python Testing
 
 * Python was tested using PEP8 validator
 
