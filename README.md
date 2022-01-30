@@ -286,16 +286,16 @@ This was resolved by amending the play_game variable code.
  <br>
  
 
-"""
+## Code Amendment
 
- play_game = input('Are you ready to play? Enter Yes or No. ')
+   play_game = input('Are you ready to play? Enter Yes or No. ')
     
-    if play_game.lower()[0] == 'y':
-        game_on = True
-    else:
+      if play_game.lower()[0] == 'y':
+         game_on = True
+      else:
         game_on = False
         
- """
+
  
  <br>
  
