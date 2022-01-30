@@ -16,8 +16,6 @@ Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or X
 5. [How the game is Played](#How-the-game-is-Played)
 6. [Testing](#Testing)
    1. [Manual Testing](#Manual-Testing) 
-   2. [Validator Testing](#Validator-Testing) 
-   3. [Solved Bugs](#Solved-Bugs)
 7. [Deployment](#Deployment)
 8. [Credits](#Credits)
     1. [Technologies Used](#Technologies-Used) 
@@ -363,36 +361,12 @@ This was tested and works as expected. (The Letter F was tested as a name)
 
 <br>
 
+* Do you want to play again screen
+* If "Yes", the game restarts to the welcome screen
+* If "No" , the ends with the ending message and intructions how to play again
 
-
-
-
- 
-
- 
- 
-
-<br>
-
-
-
-## Game Testing
-<br>
-
-
-<br>
-
-
-<br>
-
-## Validator Testing
-<br>
-
-
-<br>
-## Solved Bugs
-<br>
-
+![Welcome Page](Images/welcome.png)
+![Thanks For Playing](Images/thanksforplaying.png)
 
 <br>
 
