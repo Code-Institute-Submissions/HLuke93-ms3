@@ -216,43 +216,43 @@ Currently it is only a randomly generated computer choice.
 ## E501(Line Too Long)
 
 <br>
-Resolved
+Resolved by reduceing line length
 <br>
 
 ## W503(Line Break Before Binary Operator)
 
 <br>
-Resolved
+Resolved by aligning code up correctly that goes across 2 lines 
 <br>
 
 ## E303(Too Many Blank Lines)
 
 <br>
-Resolved
+Resolved by removing blank lines
 <br>
 
 ## W293(Blank Line Contains Whitespace)
 
 <br>
-Resolved
+Resolved by removing additional white space
 <br>
 
 ## W291(Trailing Whitespace)
 
 <br>
-Resolved
+Resolved by removing trailing whitespace
 <br>
 
 ## E128(Continuation Line Under-Indented For Visual Indent)
 
 <br>
-Resolved
+Resolved by indeningt lines to the opening parentheses
 <br>
 
 ## W391(Blank Line At End Of File)
 
 <br>
-Resolved
+Resolved me removing additonal line and the end of the file.
 <br>
 
 # PEP8 All Correct
@@ -268,7 +268,7 @@ Resolved
 
 ## Manual Testing
 
-* When the gaem is first run , the user can eneter in any name , which may include letters , numbers and special characters.
+* When the game is first run , the user can enter in any name , which may include letters , numbers and special characters.
 This was tested and works as expected. (The Letter F was tested as a name)
 
 ![Welcome "F"](Images/welcomef.png)
