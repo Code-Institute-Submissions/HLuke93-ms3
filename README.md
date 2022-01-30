@@ -287,7 +287,7 @@ This was tested and works as expected. (The Letter F was tested as a name)
 * This was tested by running the program multiple times to see both decisions.
 
 ![User First](Images/player1first.png)
-![Computer First](Images/computerfirst.png)
+![Computer First](Images/compfirst.png)
 
 <br>
 
@@ -345,15 +345,21 @@ This was tested and works as expected. (The Letter F was tested as a name)
 
 * When the User Wins the game , a user win message is displayed
 
+![Winning screen](Images/userwin1.png)
+
 <br>
 
 
 * When the User loses the game , a computer win message is displayed
 
+![Loosing Screen](Images/computerwin1.png)
+
 <br>
 
 
 * When the User Draws the game , a Draw message is displayed
+
+![Draw Screen](Images/drawscreen.png)
 
 <br>
 
