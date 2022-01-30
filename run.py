@@ -181,17 +181,12 @@ while True:
     print(f"{turn} will go first")
     print("")
 
-    play_game = ""
-
-    while not (play_game == "yes" or play_game == "no"):
-        play_game = input(f"\033[1;35;35mAre you ready to play {name}?"
-                          " Yes or No: ").lower()
-
-        if play_game == "no":
-            break
-
-        if play_game.lower() == "yes":
-            game_on = True
+    play_game = input('Are you ready to play? Enter Yes or No. ')
+    
+    if play_game.lower()[0] == 'y':
+        game_on = True
+    else:
+        game_on = False
 
     while game_on:
         if turn == "Player 1":
