@@ -183,8 +183,6 @@ In the future i woudl like to implennt the Minimax algorithm for the computer ch
 This would add a much higher level of difficulty to the game.
 Currently it is only a randomly generated computer choice.
 
-## 
-
 
 # Testing
 
@@ -203,34 +201,36 @@ The Python results came back with the following:
 
 <hr>
 
-**E501(Line Too Long)
+## E501(Line Too Long)
 <br>
 Resolved
 <br>
-**W503(Line Break Before Binary Operator)
+## W503(Line Break Before Binary Operator)
 <br>
 Resolved
 <br>
-**E303(Too Many Blank Lines)
+## E303(Too Many Blank Lines)
 <br>
 Resolved
 <br>
-**W293(Blank Line Contains Whitespace)
+## W293(Blank Line Contains Whitespace)
 <br>
 Resolved
 <br>
-**W291(Trailing Whitespace)
+## W291(Trailing Whitespace)
 <br>
 Resolved
 <br>
-**E128(Continuation Line Under-Indented For Visual Indent)
+## E128(Continuation Line Under-Indented For Visual Indent)
 <br>
 Resolved
 <br>
-**W391(Blank Line At End Of File)
+## W391(Blank Line At End Of File)
 <br>
 Resolved
 <br>
+
+
 
 
 
