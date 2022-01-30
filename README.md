@@ -192,6 +192,9 @@ The user is asked one more time if they are ready to play?
 This would add a much higher level of difficulty to the game.
 Currently it is only a randomly generated computer choice.
 
+<br>
+<br>
+<br>
 
 # Testing
 
