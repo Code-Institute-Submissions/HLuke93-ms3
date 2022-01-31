@@ -411,7 +411,7 @@ This was tested and works as expected. (The Letter F was tested as a name)
 * [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
 * [Heroku](https://dashboard.heroku.com/apps) was used to deploy the site
 * [PEP8](http://pep8online.com/) was used to test the python code.
-* [Youtube](http://youtube.com/) was used to watch tutorials on how to make tic-tac-toen using python.
+* [Youtube](http://youtube.com/) was used to watch tutorials on how to make tic-tac-toe using python.
 
 
 <br>
