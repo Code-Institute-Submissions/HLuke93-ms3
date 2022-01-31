@@ -1,6 +1,6 @@
 # Tic Tac Toe -v- Computer (by Luke Hickson)
 
-Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.  [Live Website Here]().
+Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.  [Live Website Here](https://tictactoe2022.herokuapp.com/).
 <br>
 
 ![Tic Tac Toe Board](Images/main.png)
@@ -13,14 +13,13 @@ Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or X
 3. [User Expectations](#User-expectations)
 4. [Features](#features)
    1. [Future Features](#Future-Features)
-5. [How the game is Played](#How-the-game-is-Played)
-6. [Testing](#Testing)
+5. [Testing](#Testing)
    1. [Manual Testing](#Manual-Testing) 
-7. [Deployment](#Deployment)
-8. [Credits](#Credits)
+6. [Deployment](#Deployment)
+7. [Credits](#Credits)
     1. [Technologies Used](#Technologies-Used) 
     2. [Content](#Content) 
-    3. [Media](#Media)
+ 
 
 
 <br>
