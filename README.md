@@ -374,14 +374,27 @@ This was tested and works as expected. (The Letter F was tested as a name)
 
 <br>
 
+
+1) Went to Heroku dashboard and clicked on 'create a new app'.
+2) Selected a name for my app; every app must have a unique name so I couldn't call it TicTacToe as this was already taken so I went for tictactoe2022.
+3) Selected my region (Ireland) and clicked create app.
+4) I then went to the tab at the top of the page and clicked on settings.
+5) As Instruced on the Codeinstitute tutorial i added a Key: PORT and Value: 8000
+6) I added the buildpacks needed by clicking on the buildpack button.
+7) Here I selected python and pressed save changes.
+8) Then repeated the same process but selected nodejs this time, making sure it was done in that order with python at the top and nodejs under.
+9) I went back up to the tab at the top and clicked deploy.
+10) I selected github as the deployment method and clicked connect to github.
+11) I then searched for my github repository name, and connected to the correct repository.
+12) Then I scrolled down, here there were two options.
+13) The first option being to enable automatic deployment, which means that Heroku will rebuild the app every time I pushed a change to github. This is the on i selected.
+14) The other option being to manually deploy.
+15) When all the code is received from github there is a view button that it a link to the running app, I clicked this to make sure everything was running as expected.
+
 [Go to the top](#Table-of-Contents)
 
 
 <br>
-
-## GitHub Pages
-<br>
-
 
 <br>
 
@@ -389,13 +402,16 @@ This was tested and works as expected. (The Letter F was tested as a name)
 
 <br>
 
-[Go to the top](#Table-of-Contents)
-
-
-<br>
-
 ## Technologies Used
 <br>
+
+* [Luci Chart](https://lucid.app/documents) was used for the Flow Chart.
+* [Am I Responsive](http://ami.responsivedesign.is/) was used to test the responsiveness of the site
+* [Github](https://github.com/HLuke93) was used as the repository hosting service
+* [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
+* [Heroku](https://dashboard.heroku.com/apps) was used to deploy the site
+* [PEP8](http://pep8online.com/) was used to test the python code.
+* [Youtube](http://youtube.com/) was used to watch tutorials on how to make tic-tac-toen using python.
 
 
 <br>
@@ -403,13 +419,12 @@ This was tested and works as expected. (The Letter F was tested as a name)
 ## Content 
 <br>
 
-
-
-<br>
-
-## Media
+The Code used in this website was written by the developer.
+The Code institute , YouTube and W3 Schools were used a guides.
 
 <br>
+
+
 
 
 
